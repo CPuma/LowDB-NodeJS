@@ -1,0 +1,36 @@
+{
+  "name": "lowdb-nodejs",
+  "version": "1.0.0",
+  "description": "Probando LowDB con Nodejs y Express",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc-watch --onSuccess \"nodemon dist/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CPuma/LowDB-NodeJS.git"
+  },
+  "author": "R@sec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CPuma/LowDB-NodeJS/issues"
+  },
+  "homepage": "https://github.com/CPuma/LowDB-NodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0",
+    "morgan": "^1.9.1",
+    "uuid": "^7.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/lowdb": "^1.0.9",
+    "@types/morgan": "^1.9.0",
+    "@types/uuid": "^7.0.0",
+    "nodemon": "^2.0.2",
+    "tsc-watch": "^4.2.3",
+    "typescript": "^3.8.3"
+  }
+}
