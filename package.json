@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/CPuma/LowDB-NodeJS#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "lowdb": "^1.0.0",
     "morgan": "^1.9.1",
     "uuid": "^7.0.2"
